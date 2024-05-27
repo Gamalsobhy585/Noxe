@@ -55,7 +55,6 @@ function App() {
         
 
         { index: true, element: <ProtectedRoute userData={userData}><Home /></ProtectedRoute> },
-        { path: 'gallery', element: <Gallery /> },
         { path: 'movies', element: <ProtectedRoute userData={userData}><Movies /></ProtectedRoute> },
         { path: 'login', element: <Login  saveUserData={saveUserData} /> },
         { path: 'people', element: <ProtectedRoute userData={userData}><People /></ProtectedRoute> },
