@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider,createHashRouter } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
 import Movies from './components/Movies/Movies';
@@ -47,7 +47,7 @@ function App() {
     setUserData(user);
   }
 
-  let routers = createBrowserRouter([
+  let routers = createHashRouter([
     {
       path: '/',
       element: <Layout setUserData={setUserData} userData={userData} />,
