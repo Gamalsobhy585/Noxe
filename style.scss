@@ -1,0 +1,21 @@
+$mainColor:#09c;
+$mainWidth:60%;
+$secondColor:green;
+$minHeight:50vh;
+
+h1{
+    color: $secondColor;
+    background-color: $mainColor;
+}
+body{
+    background-color: $lightBg;
+}
+.parent{
+    width: $mainWidth;
+    .child1{
+        background-color: :$mainColor;
+    }
+    .child2{
+        color: : $secondColor;
+    }
+}

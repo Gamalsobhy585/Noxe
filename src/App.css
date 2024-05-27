@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: #131722;
+  color: #fff;
+
+
+}
+.my-input{
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+color: #fff;
+}
+a{
+  text-decoration: none;
+  color: var(--font-color);
+
+}
+.my-input{
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+.brdr{
+  height: 1px;
+  background-color: #a8a8a83d;
+}
+.vote{
+  background-color: var(--light-color);
+}
